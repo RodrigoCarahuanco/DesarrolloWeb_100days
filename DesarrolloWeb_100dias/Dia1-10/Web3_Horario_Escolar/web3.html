@@ -19,6 +19,47 @@
         border-collapse: collapse;
         border: 1px solid black;
     }
+
+    #header1{
+        background-color: rgba(128,128,128,255);
+        font-size: 25px;
+        padding: 0px;
+    }
+
+    .header2{
+        font-weight: 1000;
+        background-color: rgba(239,239,239,255);
+    }
+
+    .green{
+        background-color: rgba(84,139,98,255);
+    }
+
+    .LM{
+        background-color: rgba(117,202,233,255);
+    }
+
+    .SI{
+        background-color: rgba(252,37,8,255);
+    }
+
+    .BD{
+        background-color: rgba(234,167,63,255);
+    }
+
+    .ED{
+        background-color: rgba(228,233,117,255);
+    }
+
+    .FOL{
+        background-color: rgba(197,127,197,255);
+    }
+
+    .modulos{
+        font-size: 20px;
+        line-height: 8px;
+        font-weight: bold;
+    }
 </style>
 <!DOCTYPE html>
 <html lang="en">
@@ -33,9 +74,9 @@
         <table border="1">
             <thead>
                 <tr>
-                    <th colspan="6">HORARIO ESCOLAR</th>
+                    <th colspan="6" id="header1">HORARIO ESCOLAR</th>
                 </tr>
-                <tr>
+                <tr class="header2">
                     <th></th>
                     <th>Lunes</th>
                     <th>Martes</th>
@@ -44,44 +85,44 @@
                     <th>Viernes</th>
                 </tr>
                 <tr>
-                    <th>08:00 - 9:00</th>
-                    <th rowspan="3">PROG</tqh>
-                    <th rowspan="2">LM</th>
-                    <th rowspan="3">PROG</th>
-                    <th rowspan="2">SI</th>
-                    <th rowspan="2">PROG</th>
+                    <th class="header2">08:00 - 9:00</th>
+                    <th rowspan="3" class="green">PROG</tqh>
+                    <th rowspan="2" class="LM">LM</th>
+                    <th rowspan="3" class="green">PROG</th>
+                    <th rowspan="2" class="SI">SI</th>
+                    <th rowspan="2" class="green">PROG</th>
                 </tr>
                 <tr>
-                    <th>9:00 - 10:00</th>
+                    <th class="header2">9:00 - 10:00</th>
                 </tr>
                 <tr>
-                    <th>10:00 - 11:00</th>
-                    <th>SI</th>
-                    <th>BD</th>
-                    <th>ED</th>
+                    <th class="header2">10:00 - 11:00</th>
+                    <th class="SI">SI</th>
+                    <th class="BD">BD</th>
+                    <th class="ED">ED</th>
                 </tr>
                 <tr>
-                    <th>11:00 - 11:30</th>
+                    <th class="header2">11:00 - 11:30</th>
                     <th colspan="5"></th>
                 </tr>
                 <tr>
-                    <th>11:30 - 12:30</th>
-                    <th>FOL</th>
-                    <th>SI</th>
-                    <th rowspan="3">BD</th>
-                    <th rowspan="2">BD</th>
-                    <th>ED</th>
+                    <th class="header2">11:30 - 12:30</th>
+                    <th class="FOL">FOL</th>
+                    <th class="SI">SI</th>
+                    <th rowspan="3" class="BD">BD</th>
+                    <th rowspan="2" class="BD">BD</th>
+                    <th class="ED">ED</th>
                 </tr>
                 <tr>
-                    <th>12:30 - 13:30</th>
-                    <th rowspan="2">SI</th>
-                    <th>ED</th>
-                    <th rowspan="2">LM</th>
+                    <th class="header2">12:30 - 13:30</th>
+                    <th rowspan="2" class="SI">SI</th>
+                    <th class="ED">ED</th>
+                    <th rowspan="2" class="LM">LM</th>
                 </tr>
                 <tr>
-                    <th>13:30 - 14:30</th>
-                    <th>FOL</th>
-                    <th>FOL</th>
+                    <th class="header2">13:30 - 14:30</th>
+                    <th class="FOL">FOL</th>
+                    <th class="FOL">FOL</th>
                 </tr>
             </thead>
         </table>
