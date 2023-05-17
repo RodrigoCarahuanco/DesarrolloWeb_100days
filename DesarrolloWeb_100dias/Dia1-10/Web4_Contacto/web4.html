@@ -1,29 +1,108 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+    body {
+        background-color: rgba(128, 204, 254, 255);
+        margin: 0px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    form {
+        width: 700px;
+        height: 900px;
+        background-color: rgba(255, 255, 255, 255);
+        border-radius: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: rgba(128, 204, 254, 255);
+        font-size: 45px;
+    }
+
+    #body-form{
+        margin: 20px;
+        font-size: 19px;
+    }
+
+    input{
+        width: 100%;
+        height: 40px;
+        border-radius: 8px;
+        border: 1px solid rgba(128, 204, 254, 255);
+    }
+
+    ::placeholder {
+        font-family: 'Roboto', sans-serif;
+        padding: 10px;
+        color: rgba(191,190,179,255);
+        font-size: 15px;
+    }
+
+    textarea{
+        width: 100%;
+        height: 130px;
+        border-radius: 8px;
+        border: 1px solid rgba(128, 204, 254, 255);
+    }
+
+    button{
+        margin-top: 30px;
+        width: 100%;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 20px;
+        background-color: rgba(128, 204, 254, 255);
+        border-color: rgba(128, 204, 254, 255);
+        border-style: solid;
+    }
+
+    p{
+        margin-bottom: 10px;
+    }
+
+</style>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <form action="#">
-        <h1>Formulario de contacto</h1>
-        <p>Nombre*</p>
-        <input type="nombre">
-        <p>Email*</p>
-        <input type="email">
-        <p>Telefono</p>
-        <input type="telefono">
-        <p>Sitio web</p>
-        <input type="sitio web">
-        <p>Asunto*</p>
-        <input type="Asunto">
-        <p>Mensaje*</p>
-        <textarea cols="30" rows="10"></textarea>
-        <br>
-        <button>ENVIAR</button>
-        <p>* los campos son obligatorios</p>
-    </form>
+    <main>
+        <form action="#">
+            <h1>Formulario de contacto</h1>
+            <div id="body-form">
+                <p>Nombre*</p>
+                <input type="nombre" placeholder="Escribe tu nombre">
+                <p>Email*</p>
+                <input type="email" placeholder="Escribe tu Email">
+                <p>Telefono</p>
+                <input type="telefono" placeholder="Escribe tu telefono">
+                <p>Sitio web</p>
+                <input type="sitio web" placeholder="Escribe la URL de tu web">
+                <p>Asunto*</p>
+                <input type="Asunto" placeholder="Escribe un asunto">
+                <p>Mensaje*</p>
+                <textarea placeholder="Deja aqui tu comentario..."></textarea>
+                <br>
+                <button>ENVIAR</button>
+                <p>* los campos son obligatorios</p>
+            </div>
+        </form>
+    </main>
 </body>
+
 </html>
