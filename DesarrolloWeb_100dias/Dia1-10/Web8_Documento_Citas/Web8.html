@@ -3,7 +3,14 @@
     body{
         margin: 10px;
         background-color: rgba(38,115,81,255);
-        font-family: 'Roboto', sans-serif;;
+        font-family: 'Roboto', sans-serif;
+        font-size: 120%;
+    }
+
+    header{
+        display: flex;
+        justify-content: start;
+        align-items: center;
     }
 
     h1{
@@ -21,10 +28,64 @@
     }
 
     .cita1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .relleno1{
         background-color: white;
-        width: 700px;
+        width: 40%;
+        padding:5px 15px;
+        text-align: justify;
+        border-radius: 30px;
+        border: 6px solid black;
     }
     
+    .cita2{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+
+    .relleno2{
+        background-color: rgba(173,90,58,255);
+        width: 40%;
+        padding-right: 0px;
+        color: white;
+        padding: 3px 10px;
+        border-radius: 15px 0px 0px 15px;
+        border: 16px solid rgba(128,36,0,255);
+    }
+
+    .cita3{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    .relleno3{
+        background-color: rgba(172,123,57,255);
+        width: 55%;
+        padding: 1px 3px;
+        color: white;
+        border-radius: 0px 15px 15px 0px;
+        border: 16px solid rgba(129,72,2,255);
+    }
+
+    .cita4{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .relleno4{
+        background-color: rgba(0,70,129,255);
+        color: white;
+        padding: 5px 15px;
+        width: 40%;
+        
+    }
 </style>
 
 <!DOCTYPE html>
@@ -38,31 +99,42 @@
 </head>
 
 <body>
-    <h1>CITAS DE EDSGER DIJKSTRA</h1>
+    <header>
+        <h1>CITAS DE EDSGER DIJKSTRA</h1>
+    </header>
+    
     <main>
         <div class="cita1">
-            <p>
-                Edsger Wybe Dijkstra (1930 – 2002), informático holandés ganador del premio Turing<br>en 1972, fue un
-                pionero y paladín de la programación estructurada.
-            </p>
+            <div class="relleno1">
+                <p>
+                    Edsger Wybe Dijkstra (1930 – 2002), informático holandés ganador del premio Turing en 1972, fue un
+                    pionero y paladín de la programación estructurada.
+                </p>
+            </div>
         </div>
-        <div class="cita">
-            <p>
-                La programación orientada a objetos es una idea excepcionalmente mala que sólo puede tener su origen en
-                California.
-            </p>
+        <div class="cita2">
+            <div class="relleno2">
+                <p>
+                    La programación orientada a objetos es una idea excepcionalmente mala que sólo puede tener su origen en
+                    California.
+                </p>
+            </div>
         </div>
-        <div class="cita">
-            <p>
-                Si dentro de 10 años, cuando estés haciendo algo rápido y mal hecho, de repente sientes que estoy viendo
-                lo que haces y te dices a ti mismo "Esto no le hubiera gustado a Dijkstra", bueno, me conformo con ese
-                tipo de inmortalidad.
-            </p>
+        <div class="cita3">
+            <div class="relleno3">
+                <p>
+                    Si dentro de 10 años, cuando estés haciendo algo rápido y mal hecho, de repente sientes que estoy viendo
+                    lo que haces y te dices a ti mismo "Esto no le hubiera gustado a Dijkstra", bueno, me conformo con ese
+                    tipo de inmortalidad.
+                </p>
+            </div>
         </div>
-        <div class="cita">
-            <p>
-                La Informática no se ocupa de los ordenadores más de lo que la Astronomía se ocupa de los telescopios.
-            </p>
+        <div class="cita4">
+            <div class="relleno4">
+                <p>
+                    La Informática no se ocupa de los ordenadores más de lo que la Astronomía se ocupa de los telescopios.
+                </p>
+            </div>
         </div>
         <div class="cita">
             <p>
