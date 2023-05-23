@@ -1,12 +1,125 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');    body{
+        margin: 0px 30px;
+        background-color: rgba(233,241,251,255);
+    }
+
+    header{
+        display: flex;
+        justify-content: center;
+        font-family: 'Sigmar', cursive;
+        font-size: 26px;
+        letter-spacing: 2px;
+        margin: 0px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    hr{
+        width: 60%;
+        height: 10px;
+        border: 1px solid black;
+        border-radius: 15px;
+        background-color: rgba(123,152,183,255);
+    }
+
+    .Titulo2{
+        font-family: 'Sigmar', cursive;
+        color: rgba(123,152,183,255);
+        font-size: 150%;
+        text-shadow: 4px 2px 1px rgba(0, 0, 0, 1);
+    }
+
+    .Titulo3{
+        font-family: 'Sigmar', cursive;
+        color: rgba(123,152,183,255);
+        font-size: 250%;
+        text-shadow: 4px 2px 1px rgba(0, 0, 0, 1);
+    }
+
+    .contenido{
+        display: flex;
+        
+    }
+
+    
+</style>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header>
+        <h1>CANIS LUPUS FAMILIARIS</h1>
+    </header>
+    <main>
+        <div class="section1">
+            <p>
+                El perro (<span class="subrayado">Canis lupus familiaris</span>) es un mamífero carnívoro de la familia de los cánidos, una subespecie
+                del lobo (<span class="subrayado">Canis lupus</span>), que acompaña a los humanos desde hace al menos 14.000 años. Su tamaño, forma y
+                pelaje es muy diverso según la raza. Posee un oído y olfato muy desarrollados. Su vida promedio es de 15
+                años, aunque las razas pequeñas puede alcanzar una longevidad de 20 años.
+            </p>
+            <p>
+                Hay aproximadamente 800 razas —más que de cualquier otro animal— que varían significativamente en
+                tamaño, fisonomía y temperamento. Las razas de perros en sentido moderno comenzaron a partir de la
+                precisa documentación de los pedigríes que se establecen en el <span class="rojo">Kennel Club Inglés</span> en <span class="fecha">1873</span>, a imitación
+                de otros registros genealógicos para ganado y caballos.
+            </p>
+        </div>
+        <div class="separador">
+            <hr>
+        </div>
+        <div>
+            <div class="Titulo2">
+                <h2>YORKSHIRE TERRIER</h2>
+            </div>
+            <div class="contenido">
+                <div>
+                    <img src="img/yorkshire.jpg">
+                </div>
+                <div>
+                    <p>
+                        El yorkie se originó en Yorkshire, una región del norte de Inglaterra. A finales de 1865, un
+                        perro de exposición llamado Huddersfield Ben —que era un Paisley terrier con tipo de Yorkshire
+                        terrier—, propiedad de una mujer que vivía en <span class="subrayado">Yorkshire</span>, Mary Ann Foster, fue visto en las
+                        exposiciones caninas en toda Gran Bretaña, y fue quien definió el estándar de la raza denominada
+                        Yorkshire terrier. El nombre oficial de la raza se adoptó en <span class="fecha">1870</span>.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="separador">
+            <hr>
+        </div>
+        <div class="contenido">
+            <div>
+                <h2 class="Titulo3">DOGO ALEMAN</h2>
+                <p>
+                    El término alemán Dogge se aplicaba antiguamente a los perros grandes y fuertes que no pertenecían
+                    necesariamente a una raza en particular. En <span class="fecha">1880</span>, durante una exposición llevada a cabo en Berlín,
+                    se estableció el primer estándar para el <span class="subrayado">dogo alemán</span>. Este ha sido controlado por el <span class="rojo">Deutscher
+                    Doggen-Club</span> 1888 e.V y alterado en algunas ocasiones a través de los años. La versión actual se
+                    conforma al modelo de la Federación <span class="rojo">Cinológica Internacional</span>.
+                </p>
+            </div>
+            <div>
+                <img src="img/dogo-aleman.jpg">
+            </div>
+        </div>
+        <div class="separador">
+            <hr>
+        </div>
+    </main>
 </body>
+
 </html>
