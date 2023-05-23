@@ -1,0 +1,8 @@
+7-zip es un compresor/descompresor de archivos que maneja los formatos ZIP, RAR,
+CAB, GZIP, BZIP2 y TAR, asi como un formato propio, 7z.
+
+Audacity es un editorde audio. Permite reproducir, grabar, editar, mezclar, aplicar
+efectos, etc.
+
+GIMP (GNU Image Manipulation Program) es un programa de retoque fotografico y 
+composicion y edicion de imagenes
